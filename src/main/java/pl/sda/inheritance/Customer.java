@@ -3,7 +3,7 @@ package pl.sda.inheritance;
 public class Customer {
 
     private final String name;
-    private float accountSum = 0.0f;
+    public float accountSum = 0.0f;
 
     public Customer(String name) {
         this.name = name;
@@ -13,7 +13,7 @@ public class Customer {
         accountSum += money;
     }
 
-    protected void withdrawAll() {
+    public void withdrawAll() {
         accountSum = 0;
     }
 
@@ -23,5 +23,13 @@ public class Customer {
 
     public float getAccountSum() {
         return accountSum;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "name='" + name + '\'' +
+                ", accountSum=" + accountSum +
+                '}';
     }
 }

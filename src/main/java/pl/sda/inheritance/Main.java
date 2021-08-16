@@ -17,6 +17,9 @@ public class Main {
 
         printAccountValues(regularCustomer);
         printAccountValues(vipCustomer);
+
+        vipCustomer.withDraw(1000.0f);
+        printAccountValues(vipCustomer);
     }
 
     private static void printAccountValues(Customer customer) {
