@@ -29,7 +29,6 @@ public class VipCustomer {
                 "customer=" + customer +
                 '}';
     }
-
     public static void main(String[] args) {
         VipCustomer customer = new VipCustomer(new Customer("Zenek"));
         customer.getAccountSum();
@@ -38,6 +37,5 @@ public class VipCustomer {
         System.out.println(customer + " " + customer.getAccountSum());
         customer.withdrawAll();
         System.out.println(customer + " " + customer.getAccountSum());
-
     }
 }

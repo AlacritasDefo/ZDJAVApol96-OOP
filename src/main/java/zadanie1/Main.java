@@ -21,13 +21,9 @@ public class Main {
         printEmployee(employee1);
 
 
-
-
-
-
     }
     private static void printEmployee(Employee employee){
-        System.out.println(employee.getFirstName + " " + employee.getLastName + " " + employee.getPosition + " " + employee.getSalary);
+//        System.out.println(employee.getFirstName + " " + employee.getLastName + " " + employee.getPosition + " " + employee.getSalary);
     }
 
 }

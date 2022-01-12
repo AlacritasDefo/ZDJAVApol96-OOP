@@ -25,8 +25,6 @@ public class Counter {
         for (int i = 0; i < 10; i++) {
             counter.count();
             System.out.println(counter.getValue());
-
-
         }
     }
 }

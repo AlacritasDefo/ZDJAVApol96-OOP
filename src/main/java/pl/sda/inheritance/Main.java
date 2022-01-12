@@ -1,7 +1,6 @@
 package pl.sda.inheritance;
 
 public class Main {
-
     public static void main(String... args) {
         Customer regularCustomer = new Customer("Dave");
         VipCustomer vipCustomer = new VipCustomer("Kevin");

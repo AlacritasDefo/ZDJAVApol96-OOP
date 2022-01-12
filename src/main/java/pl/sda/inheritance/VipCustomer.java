@@ -2,8 +2,6 @@ package pl.sda.inheritance;
 
 
 public class VipCustomer extends Customer {
-
-
     private String status = "VIP";
 
     public VipCustomer(String name) {
@@ -15,10 +13,6 @@ public class VipCustomer extends Customer {
     }
 
     public void withDraw(float amount){
-
         accountSum -= amount;
-
     }
-
-
 }

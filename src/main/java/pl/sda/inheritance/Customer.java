@@ -1,7 +1,6 @@
 package pl.sda.inheritance;
 
 public class Customer {
-
     private final String name;
     public float accountSum = 0.0f;
 

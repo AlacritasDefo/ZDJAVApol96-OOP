@@ -1,7 +1,6 @@
 package zadanie1;
 
 public class Person {
-
     protected String firstName;
     protected String lastName;
 
@@ -20,6 +19,4 @@ public class Person {
     public String getLastName(String lastName){
         return lastName;
     }
-
-
 }
